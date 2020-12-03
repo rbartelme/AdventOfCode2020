@@ -2,7 +2,7 @@
 library(stringr)
 
 #read in file
-day2_in <- read.table(file = "~/AdventOfCode2020/inputs/day2.txt", sep = c(" ", "-"))
+day2_in <- read.table(file = "~/AdventOfCode2020/inputs/day2.txt", sep = " ")
 
 #fix issues with range rules with character string split
 rules_range <- data.frame(do.call('rbind', 
